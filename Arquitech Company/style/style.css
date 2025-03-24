@@ -1,0 +1,315 @@
+* {    
+    margin: 0; 
+    padding: 0;    
+    box-sizing: border-box; 
+    text-decoration:none;
+    color: black;
+
+    
+   } 
+
+   html, body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#Titulo{
+    color: black ;
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    display: inline;
+    transition: 0.3s;
+    position: fixed;
+    margin: 30px;
+    margin-top: 25px;
+
+}
+
+#Titulo:hover{
+    
+    opacity:0.6;
+    
+}
+
+.Menu{
+   
+    position: absolute;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: 500px;
+    width:800px;
+    font-size: 18px;
+    display: flex;
+    text-decoration:none; 
+}
+
+#TextoFrase1{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+position: absolute;
+font-size: 28px;
+margin: 230px;
+margin-left: 50px;
+}
+
+
+#TextoFrase2{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 22px;
+position: absolute;
+display: inline;
+margin: 130px;
+margin-left: 50px;
+letter-spacing: 1px;
+}
+
+
+.Video{
+    position:relative;
+    margin-top: 20px;
+    left: 600px;
+    display: inline; 
+}
+
+
+.Linha1{
+ 
+    position:relative;
+    margin-top: 70px;
+    width: 1270px;
+}
+
+
+#aa{
+position: absolute;
+top: 560px;
+left:35px;
+    }
+
+
+#aaaa{
+position: absolute;
+top: 560px;
+left:390px;
+height: 294px;
+    }
+
+#aaaaa{
+    position: absolute;
+    top: 560px;
+    left:740px;
+    }
+
+  #aaaaaa{
+    position: absolute;
+    top: 560px;
+    left:1090px;
+    }
+
+#TextProjeto1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 850px;
+    left:100px;
+    }
+
+#TextProjeto2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 850px;
+    left:450px;
+    }
+
+#TextProjeto3{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 850px;
+    left:800px;
+    }
+
+#TextProjeto4{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 850px;
+    left:1170px;
+    }
+
+#TextSeção2{
+    font-size: 22px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 520px;
+    left:500px;
+    letter-spacing: 3px;
+    }
+
+
+#PredioImagem{
+    position: absolute;
+    height: 800px;
+    width: 1200px;
+    top: 900px;
+    left:35px;
+}
+
+
+#ImagemMaps{
+    position: absolute;
+    top: 1800px;
+    left: 450px;
+    height: 200px;
+    width: 790px;
+}
+
+
+#TextoLocalizacao{
+    font-size: 22px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 1750px;
+    left:750px;
+    letter-spacing: 3px;
+}
+
+
+#TextEndereço1{
+    position: absolute;
+    top: 2015px;
+    left: 600px;
+}
+
+
+#TextEndereço2{
+
+    position: absolute;
+    top: 2015px;
+    left: 900px;
+}
+
+
+#TextoContato{
+    font-size: 22px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 1750px;
+    left:40px;
+}
+
+#Caixa1{
+    position: absolute;
+    top: 1800px;
+    left:40px;
+}
+
+#Caixa2{
+    position: absolute;
+    top: 1840px;
+    left:40px;
+}
+
+#Caixa3{
+    position: absolute;
+    top: 1880px;
+    left:40px;
+}
+
+#Caixa4{
+    position: absolute;
+    top: 1920px;
+    left:40px;
+}
+
+
+#BotaoEnviar{
+    position: absolute;
+    top: 1960px;
+    left:40px;
+    height: 40px;
+    width: 380px;
+
+
+
+}
+
+#BotaoNext{
+    position: absolute;
+    top: 680px;
+    left:1185px;
+
+}
+
+#TextFooter{
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    display: inline;
+    position: absolute;
+    margin: 30px;
+    margin-top: 1680px;
+
+}
+
+#TextFooter3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    display: inline;
+    position: absolute;
+    margin: 490px;
+    margin-top: 1800px;
+
+}
+
+#TextFooter2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    display: inline;
+    position: absolute;
+    margin: 540px;
+    margin-top: 1620px;
+
+}
+
+
+
+#LinhaFooter{
+
+    position:absolute;
+    margin-top: 1600px;
+    width: 1270px;
+    
+
+}
+
+
+
+#FiguraWpp{
+    position:absolute;
+    margin-top: 1690px;
+    left: 1020px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+#FiguraInsta{
+    position:absolute;
+    margin-top: 1690px;
+    width: 30px;
+    height: 30px;
+    left: 1050px;
+
+}
+
+
+#FiguraEmail{
+    position:absolute;
+    margin-top: 1695px;
+    width: 25px;
+    height: 20px;
+    left: 1085px;
+
+}
